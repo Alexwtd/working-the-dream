@@ -144,10 +144,10 @@ footer[role="contentinfo"] {
 }
 
 .background-image {
-	background-image: url(/images/Back2.png); background-repeat: repeat repeat; 
+	background-image: image-url('Back2.png'); background-repeat: repeat repeat; 
 }
 .raster {
-	background-image: url(/images/Raster.png); background-repeat: repeat repeat; 
+	background-image: image-url('Raster.png'); background-repeat: repeat repeat; 
 }
 
 .background-image {
