@@ -30,9 +30,9 @@ root: /
 permalink: /blog/:title/
 source: source
 # Dev
-destination: public/
+#destination: public/
 # Release
-# destination: public/working-the-dream
+destination: public/working-the-dream
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
