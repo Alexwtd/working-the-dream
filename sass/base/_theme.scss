@@ -1,5 +1,7 @@
 body {
 	background: #616161;
+	min-height: 600px;
+	color: $body;
 }
 
 header[role="banner"] {
@@ -11,6 +13,7 @@ header[role="banner"] {
 nav {
 	width: 162px;
 	border-right: #282828 1px solid;
+	border-left: #282828 1px solid;
 	position: fixed;
     left: 30px;
     top: 120px;	
@@ -35,7 +38,7 @@ nav li:first-child {
 nav li a {
 	color: #f8f8f8;
 	text-shadow: 1px 1px #202020;
-	font-family: 'Arvo';
+	font-family: 'Cabin';
 	font-style: normal;
 	font-weight: 700;
 	text-decoration: none;
@@ -58,7 +61,7 @@ nav li a:hover {
 
 #main {
 	left: 30%;
-	width: 2000px;
+	position: absolute;
 	background-color: rgba(255,255,255,0.5);
 	position: absolute;
 	margin: 0 100px 0 0;
@@ -74,46 +77,29 @@ footer[role="contentinfo"] {
 	background-color: rgba(32, 32, 32, 0.5);
 	color: #fff;
 	text-shadow: 1px 1px #202020;
-	font-family: 'Arvo';
+	font-family: 'Abel';
 	font-style: normal;
-	font-weight: 400;
-	font-size: 9px;
+	font-size: 10px;
 	line-height: 28px;
 	padding: 0 13px;
 }
 
-.blog-index {
+.grid {
 	background: #fff;
-	padding: 10px;
 	position: absolute;
 	top: 0;
-	left: 200px;
 	right: 0;
 	bottom: 0;
+	left: 200px;
+	padding: 30px;
 }
 
-.blog-index article{
+.grid article{
+	float: left;
 	background: #ebebeb;
 	width: 500px;
-	margin: 10px;
-	border: 1px solid #ccc;
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline;
-}
-
-.blog-index article{
-	padding-top: 225px;
-	position: relative;
-}
-
-.blog-index article img.top{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+	width: 500px;
+	margin: 0 20px 20px 0;
 }
 
 @-webkit-keyframes fadein {
@@ -144,10 +130,10 @@ footer[role="contentinfo"] {
 }
 
 .background-image {
-	background-image: image-url('Back2.png'); background-repeat: repeat repeat; 
+	background-image: url(/images/Back2.png); background-repeat: repeat repeat; 
 }
 .raster {
-	background-image: image-url('Raster.png'); background-repeat: repeat repeat; 
+	background-image: url(/images/Raster.png); background-repeat: repeat repeat; 
 }
 
 .background-image {

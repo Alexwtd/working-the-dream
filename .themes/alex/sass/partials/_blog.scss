@@ -1,0 +1,54 @@
+article.article {
+	
+	border: 1px solid #ccc;
+	color: $body;
+
+	header {
+
+		h1 {
+			font-family: Abel;
+			font-size: 20px;
+			line-height: 26px;
+			padding: 7px 10px 0;
+		}
+
+		a {
+			color: $h1;	
+			@include transition(color);
+			&:hover {
+				color: $h1Hover;
+			}
+		}
+	}
+
+	.entry-content {
+		padding: 10px;
+		font-size: 12px;
+		font-family: Metrophobic;
+
+
+	}
+	footer {
+		display: block;
+		text-align: right;
+		padding-right: 10px;
+		font-size: 12px;
+	}
+
+	p.meta {
+		font-family: Cabin;
+		font-weight: bold;
+		font-size: 10px;
+		display: block;
+		height: 23px;
+		line-height: 23px;
+		border-top: 1px dashed #ccc;
+		margin: 10px 10px 0 10px;
+		text-transform: uppercase;
+
+		.comments {
+			float: right;
+		}
+	}
+
+}
