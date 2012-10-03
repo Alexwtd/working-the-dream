@@ -29,7 +29,10 @@ email:
 root: /
 permalink: /blog/:title/
 source: source
-destination: public/working-the-dream
+# Dev
+destination: public/
+# Release
+# destination: public/working-the-dream
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
