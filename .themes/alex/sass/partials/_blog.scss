@@ -48,7 +48,39 @@ article.article {
 
 		.comments {
 			float: right;
+			background: image-url('comments.png') center left no-repeat;
+			padding-left: 20px;	
 		}
+	}
+
+	time {
+		background: image-url('calendar.png') center left no-repeat;
+		padding-left: 20px;	
+		margin-left: 20px;
+	}
+
+	.byline.author.vcard {
+		background: image-url('person.png') center left no-repeat;
+		padding-left: 20px;
+	}
+
+}
+
+.introduction {
+	padding: 20px;
+	width: 160px;
+	font-family: Cabin;
+
+	h1 {
+		font-size: 22px;
+		text-transform: uppercase;	
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 14px;
+		font-family: Metrophobic;
+		margin-bottom: 20px;
 	}
 
 }

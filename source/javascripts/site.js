@@ -14,8 +14,8 @@
 
     $(document).imagesLoaded( function(){
       $(".grid").alexGrids();
+      $("#preloader").addClass("fade");
       $(window).resize(function() {
-        console.log("resize");
         $(".grid").alexGrids();
       });
     });

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="introduction">
-	<h1>Movies</h1>
+	<h1>Inspirirende Ondernemers</h1>
 	<p>
 		Up to date blijven? Volg dan de laatste ontwikkelingen van Working The Dream op deze pagina.
 	</p>
@@ -11,7 +11,7 @@ layout: default
 </div>
 <div class="grid">
   {% assign index = true %}
-  {% for post in site.categories['video'] %}
+  {% for post in site.categories['ondernemers'] %}
   {% assign content = post.content %}
     <article class="box article">
       {% include article.html %}

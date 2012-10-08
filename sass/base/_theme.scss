@@ -4,6 +4,11 @@ body {
 	color: $body;
 }
 
+.container {
+	min-height: 600px;
+	position: relative;
+}
+
 header[role="banner"] {
 	position: fixed;
 	top: 0;
@@ -103,20 +108,41 @@ footer[role="contentinfo"] {
 }
 
 @-webkit-keyframes fadein {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
+      0% { opacity: 1; }
+      100% { opacity: 0; }
 }
 @-ms-keyframes fadein {
-       0% { opacity: 0; }
-      100% { opacity: 1; }
+       0% { opacity: 1; }
+      100% { opacity: 0; }
 }
 @-moz-keyframes fadein {
-       0% { opacity: 0; }
-      100% { opacity: 1; }
+       0% { opacity: 1; }
+      100% { opacity: 0; }
 }
 @keyframes fadein {
-       0% { opacity: 0; }
-      100% { opacity: 1; }
+       0% { opacity: 1; }
+      100% { opacity: 0; }
+}
+
+.loader {
+	background: #000 image-url("loader.gif") center center no-repeat;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	opacity: 1;
+}
+
+.loader.fade {
+	-webkit-animation: fadein 1s ease 0 1;
+	-moz-animation: fadein 1s ease 0 1;
+	-ms-animation: fadein 1s ease 0 1;
+	animation: fadein 1s ease 0 1;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards
 }
 
 .background {
@@ -130,17 +156,10 @@ footer[role="contentinfo"] {
 }
 
 .background-image {
-	background-image: url(/images/Back2.png); background-repeat: repeat repeat; 
+	background-image: image-url('Back2.png'); background-repeat: repeat repeat; 
 }
 .raster {
-	background-image: url(/images/Raster.png); background-repeat: repeat repeat; 
-}
-
-.background-image {
-	-webkit-animation: fadein 2s ease 0 1;
-	-moz-animation: fadein 2s ease 0 1;
-	-ms-animation: fadein 2s ease 0 1;
-	animation: fadein 2s ease 0 1;
+	background-image: image-url('Raster.png'); background-repeat: repeat repeat; 
 }
 
 .embed-video-extra-container {

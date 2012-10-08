@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
+<div class="introduction">
+	<h1>Blog</h1>
+	<p>
+		Up to date blijven? Volg dan de laatste ontwikkelingen van Working The Dream op deze pagina.
+	</p>
 
+</div>
 <div class="grid">
   {% assign index = true %}
-  {% for post in paginator.posts %}
+  {% for post in site.categories['post'] %}
   {% assign content = post.content %}
     <article class="box article">
       {% include article.html %}
