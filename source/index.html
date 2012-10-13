@@ -2,11 +2,7 @@
 layout: default
 ---
 <div class="introduction">
-	<h1>Blog</h1>
-	<p>
-		Up to date blijven? Volg dan de laatste ontwikkelingen van Working The Dream op deze pagina.
-	</p>
-
+	{% render_partial introductions/_blog.markdown %}{{ contents | markdownize }}
 </div>
 <div class="grid">
   {% assign index = true %}

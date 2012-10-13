@@ -20,6 +20,11 @@
       });
     });
 
+    $('.main-height').height($('#main').innerHeight() - 40);
+    $(window).resize(function() {
+      $('.main-height').height($('#main').innerHeight() - 40);
+    });
+
 
 
   })

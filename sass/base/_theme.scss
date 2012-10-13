@@ -1,12 +1,16 @@
 body {
 	background: #616161;
-	min-height: 600px;
 	color: $body;
 }
 
-.container {
-	min-height: 600px;
-	position: relative;
+#main {
+	left: 250px;
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	margin: 0 100px 0 0;
+	top: 120px;
+	bottom: 60px;
+	min-height: 420px;
 }
 
 header[role="banner"] {
@@ -15,11 +19,12 @@ header[role="banner"] {
 	left: 0;
 }
 
+
 nav {
 	width: 162px;
 	border-right: #282828 1px solid;
 	border-left: #282828 1px solid;
-	position: fixed;
+	position: absolute;
     left: 30px;
     top: 120px;	
     z-index: 100;
@@ -64,15 +69,6 @@ nav li a:hover {
 	border-right: #16a95b 10px solid;
 }
 
-#main {
-	left: 30%;
-	position: absolute;
-	background-color: rgba(255,255,255,0.5);
-	position: absolute;
-	margin: 0 100px 0 0;
-	top: 120px;
-	bottom: 60px;
-}
 
 footer[role="contentinfo"] {
 	position: fixed;
@@ -101,27 +97,34 @@ footer[role="contentinfo"] {
 
 .grid article{
 	float: left;
-	background: #ebebeb;
-	width: 500px;
 	width: 500px;
 	margin: 0 20px 20px 0;
 }
 
 @-webkit-keyframes fadein {
       0% { opacity: 1; }
-      100% { opacity: 0; }
+      99% { opacity: 0; height: 100%;}
+      100% { opacity: 0; height: 0;}
 }
 @-ms-keyframes fadein {
-       0% { opacity: 1; }
-      100% { opacity: 0; }
+      0% { opacity: 1; }
+      99% { opacity: 0; height: 100%;}
+      100% { opacity: 0; height: 0;}
 }
 @-moz-keyframes fadein {
-       0% { opacity: 1; }
-      100% { opacity: 0; }
+      0% { opacity: 1; }
+      99% { opacity: 0; height: 100%;}
+      100% { opacity: 0; height: 0;}
+}
+@-o-keyframes fadein {
+      0% { opacity: 1; }
+      99% { opacity: 0; height: 100%;}
+      100% { opacity: 0; height: 0;}
 }
 @keyframes fadein {
-       0% { opacity: 1; }
-      100% { opacity: 0; }
+      0% { opacity: 1; }
+      99% { opacity: 0; height: 100%;}
+      100% { opacity: 0; height: 0;}
 }
 
 .loader {
@@ -134,10 +137,10 @@ footer[role="contentinfo"] {
 }
 
 .loader.fade {
-	-webkit-animation: fadein 1s ease 0 1;
-	-moz-animation: fadein 1s ease 0 1;
-	-ms-animation: fadein 1s ease 0 1;
-	animation: fadein 1s ease 0 1;
+	-webkit-animation: fadein 0.5s ease 0 1;
+	-moz-animation: fadein 0.5s ease 0 1;
+	-ms-animation: fadein 0.5s ease 0 1;
+	animation: fadein 0.5s ease 0 1;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
