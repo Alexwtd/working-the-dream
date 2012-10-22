@@ -26,6 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+#root: /working-the-dream
 root: /working-the-dream
 permalink: /blog/:title/
 source: source
@@ -99,4 +100,4 @@ disqus_show_comment_count: true
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true

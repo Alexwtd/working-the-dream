@@ -1,0 +1,36 @@
+{% capture root_url %}{{site.root | stripslashes}}{% endcapture %}
+<div style="background-image: url({{ root_url }}images/{{ post.image }})" class="entrepreneur-background">
+  <div class="entrepreneur-content">
+    <header>
+        <h1 class="entry-title">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</h1>
+    </header>
+    <div class="entry-content">{{ content }}</div>
+    <h4 class="contact-title">Contact<h4>
+    <address>
+      <span class="website line">
+        <span>website:</span>
+        <a href="http://{{post.website}}">{{post.website}}</a>
+      </span>
+      <span class="facebook line">
+        <span>facebook:</span>
+        <a href="http://{{post.facebook}}">{{post.facebook}}</a>
+      </span>
+      <span class="email line">
+        <span>e-mail:</span>
+        <a href="mailto:{{post.email}}">{{post.email}}</a>
+      </span>
+      <div class="clear"></div>
+    </address>
+    {% if site.facebook_like %}
+    <div class="fb-like" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="lucida grande" data-href="{{ site.url }}{{ post.url }}"></div>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    {% endif %}
+  </div>
+</div>

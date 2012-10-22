@@ -10,7 +10,8 @@ body {
 	margin: 0 100px 0 0;
 	top: 120px;
 	bottom: 60px;
-	min-height: 420px;
+	min-height: 520px;
+	opacity: 0;
 }
 
 header[role="banner"] {
@@ -127,25 +128,12 @@ footer[role="contentinfo"] {
       100% { opacity: 0; height: 0;}
 }
 
-.loader {
-	background: #000 image-url("loader.gif") center center no-repeat;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	z-index: 999;
-	opacity: 1;
-}
-
-.loader.fade {
-	-webkit-animation: fadein 0.5s ease 0 1;
-	-moz-animation: fadein 0.5s ease 0 1;
-	-ms-animation: fadein 0.5s ease 0 1;
-	animation: fadein 0.5s ease 0 1;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-o-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards
+#main.fadein {
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in; 
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    opacity: 1;
 }
 
 .background {
