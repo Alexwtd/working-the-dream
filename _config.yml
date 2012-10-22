@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://workingthedream.nl/
+url: http://workingthedream.nl
 title: Working the dream
 subtitle: A documentary in the making
 author: Alex van Binsbergen
@@ -27,13 +27,13 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 #root: /working-the-dream
-root: /working-the-dream
+root: /
 permalink: /blog/:title/
 source: source
 # Dev
 #destination: public/
 # Release
-destination: public/working-the-dream
+destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories

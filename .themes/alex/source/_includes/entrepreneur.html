@@ -1,5 +1,5 @@
 {% capture root_url %}{{site.root | stripslashes}}{% endcapture %}
-<div style="background-image: url({{ root_url }}images/{{ post.image }})" class="entrepreneur-background">
+<div style="background-image: url(/images/{{ post.image }})" class="entrepreneur-background">
   <div class="entrepreneur-content">
     <header>
         <h1 class="entry-title">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</h1>
