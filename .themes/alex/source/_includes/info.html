@@ -6,7 +6,7 @@
   {% endif %}
   <header>
     {% if index %}
-    	{% if page.image %}
+    	{% if post.image %}
       		<h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
   		{% else %}
   			<h1 class="entry-title info"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
