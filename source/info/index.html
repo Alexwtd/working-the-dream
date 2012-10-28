@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="introduction">
+	<h1>Info</h1>
+	<p>
+		Up to date blijven? Volg dan de laatste ontwikkelingen van Working The Dream op deze pagina.
+	</p>
+
+</div>
+<div class="grid">
+  {% assign index = true %}
+  {% for post in site.categories['info'] %}
+  {% assign content = post.content %}
+    <article class="box article">
+      {% include info.html %}
+    </article>
+  {% endfor %}
+</div>

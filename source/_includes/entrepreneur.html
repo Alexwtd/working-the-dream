@@ -1,8 +1,7 @@
-{% capture root_url %}{{site.root | stripslashes}}{% endcapture %}
 <div style="background-image: url(/images/{{ post.image }})" class="entrepreneur-background">
   <div class="entrepreneur-content">
     <header>
-        <h1 class="entry-title">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</h1>
+        <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
     </header>
     <div class="entry-content">{{ content }}</div>
     <h4 class="contact-title">Contact<h4>
@@ -23,14 +22,25 @@
     </address>
     {% if site.facebook_like %}
     <div class="fb-like" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="lucida grande" data-href="{{ site.url }}{{ post.url }}"></div>
+      
       <div id="fb-root"></div>
-      <script>(function(d, s, id) {
+      <script>
+      
+
+      (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) {return;}
         js = d.createElement(s); js.id = id;
         js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+      }(document, 'script', 'facebook-jssdk'));
+
+      window.fbAsyncInit = function() {
+        FB.api('/{{ site.url }}{{ post.url }}', function(response) {
+          console.log(response.id);
+        });
+      }
+      </script>
     {% endif %}
   </div>
 </div>

@@ -2,6 +2,7 @@
   'use strict';
 
   $(function() {
+
     var settings = {
       reverseDirectionX : false,
       enableHorizontal: true,
@@ -25,7 +26,7 @@
       $('.main-height').height($('#main').innerHeight() - 40);
     });
 
-
+    $('.tooltip-container').tooltip();
 
   })
 })(jQuery)

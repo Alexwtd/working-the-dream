@@ -6,7 +6,7 @@
 		var defaults = {
 			marginBottom: 20,
 			marginRight: 20,
-			padding: 30
+			padding: 20
 		};
 
 		var merged = $.extend({}, defaults, settings);
@@ -54,7 +54,7 @@
 			previous = box;
 		});
 
-		container.css("width", ((columns * helper.width(boxes.first())) + merged.marginRight) + "px" );
+		container.css("width", ((columns * helper.width(boxes.first())) + 10) + "px" );
 
 		return this;
 	};

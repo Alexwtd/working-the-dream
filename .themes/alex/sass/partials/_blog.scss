@@ -3,6 +3,24 @@ article.article {
 	border: 1px solid #ccc;
 	color: $body;
 	background: #ebebeb;
+	position: relative;
+
+	blockquote {
+		font-family: Abel;
+	    font-size: 30px;
+	    padding: 20px;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+
+	blockquote p:before {
+		content: '"';
+		font-size: 30px;
+		}
+		blockquote p:after {
+		content: '"';
+		font-size: 30px;
+	}
 
 	h1 
 	{
@@ -10,6 +28,15 @@ article.article {
 		font-size: 20px;
 		line-height: 26px;
 		padding: 10px 0 0 0;
+	}
+
+	h1.info {
+		border-bottom: 1px dashed #CCCCCC;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 22px;
+		padding: 15px 0;
+		margin: 0 10px;
 	}
 
 	header {
@@ -29,6 +56,7 @@ article.article {
 		padding: 10px;
 		font-size: 12px;
 		font-family: Metrophobic;
+		margin-bottom: 23px;
 
 
 	}
@@ -49,6 +77,10 @@ article.article {
 		border-top: 1px dashed #ccc;
 		margin: 10px 10px 0 10px;
 		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
 
 		.comments {
 			float: right;
@@ -74,17 +106,47 @@ article.article {
 	padding: 20px;
 	width: 160px;
 	font-family: Cabin;
+	float: left;
 
 	h1 {
 		font-size: 22px;
 		text-transform: uppercase;	
 		margin-bottom: 20px;
+		font-family: Cabin;
+		font-weight: bold;
+		padding-top: 0;
 	}
 
 	p {
 		font-size: 14px;
 		font-family: Metrophobic;
 		margin-bottom: 20px;
+	}
+
+	.button {
+		display: block;
+		color: #f8f8f8;
+		text-shadow: 1px 1px #202020;
+		font-family: 'Cabin';
+		font-style: normal;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 12px;
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		padding-left: 20px;
+		text-transform: uppercase;
+		border: #0B7F41 1px solid;
+		background: #16A95B;
+
+		transition: all .25s ease-in-out;
+	    -moz-transition: all .25s ease-in-out;
+	    -webkit-transition: all .25s ease-in-out;
+	}
+
+	.button:hover {
+		border-right: solid 10px #0B7F41;
 	}
 
 }
@@ -94,13 +156,14 @@ article.article {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: 200px;
 	background: #fff;	
 }
 .single-article {
 	position: relative;
 	width: 1044px;
 	overflow: hidden;
+	margin-left: 200px;
 
 	.article-wrapper{
 		float: left;

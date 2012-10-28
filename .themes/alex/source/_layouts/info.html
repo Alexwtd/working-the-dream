@@ -3,19 +3,16 @@ layout: default
 single: true
 ---
 <div class="introduction">
-  {% if page.categories contains 'video' %}
-    <a class="button videos-back-button" href="/blog/videos">Terug</div>
-  {% endif %}
-  <a class="button" href="/">Terug</a>
+  <a class="button" href="/info">Terug</a>
 </div>
 <div class="white-background"></div>
 <div class="single-article">
   <div class="article-wrapper">
   <article class="hentry article main-height" role="article">
       {% if page.image %}
-      <img src="{{ root_url }}/images/{{ page.image }}" width="500" />
+      	<img src="{{ root_url }}/images/{{ page.image }}" width="500" />
       {% endif %}
-      {% include article.html %}
+      {% include info.html %}
   </article>
   </div>
 {% if site.disqus_short_name and page.comments == true %}

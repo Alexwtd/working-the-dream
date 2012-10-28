@@ -1,0 +1,15 @@
+---
+layout: default
+single: true
+---
+
+<div class="introduction">
+	<a class="button" href="/blog/ondernemers">Terug</a>
+</div>
+<div class="grid">
+	{% assign content = page.content %}
+	{% assign post = page %}
+    <article class="article entrepreneur">
+      {% include entrepreneur.html %}
+    </article>
+</div>
