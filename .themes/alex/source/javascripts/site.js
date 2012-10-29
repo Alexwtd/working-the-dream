@@ -28,5 +28,37 @@
 
     $('.tooltip-container').tooltip();
 
+    $('.vote-button').click(function(e) {
+      e.preventDefault();
+      var entrepreneur = $(this).attr('href');
+
+      console.log("tha fuck");
+
+      FB.getLoginStatus(function(response) {
+        console.log(response);
+        if (response.status === 'connected') {
+          FB.api(
+            '/me/workingthedream:vote',
+            'post',
+            { entrepreneur: entrepreneur },
+            function(response) {
+               if (!response || response.error) {
+                  console.log(response.error);
+                  alert('Error occured');
+               } else {
+                  alert('vote was successful! Action ID: ' + response.id);
+               }
+            }
+          );
+          console.log("connected");
+        } else if (response.status === 'not_authorized') {
+          console.log("not not_authorized");
+        } else {
+          console.log("login")  ;
+        }
+      });
+      
+    });
+
   })
 })(jQuery)

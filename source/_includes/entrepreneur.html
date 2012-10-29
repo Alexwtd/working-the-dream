@@ -20,27 +20,6 @@
       </span>
       <div class="clear"></div>
     </address>
-    {% if site.facebook_like %}
-    <div class="fb-like" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="lucida grande" data-href="{{ site.url }}{{ post.url }}"></div>
-      
-      <div id="fb-root"></div>
-      <script>
-      
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-
-      window.fbAsyncInit = function() {
-        FB.api('/{{ site.url }}{{ post.url }}', function(response) {
-          console.log(response.id);
-        });
-      }
-      </script>
-    {% endif %}
+    <a href="{{site.url}}{{root_url}}{{post.url}}" class="vote-button">Ik stem op {{ post.title }}</a>
   </div>
 </div>

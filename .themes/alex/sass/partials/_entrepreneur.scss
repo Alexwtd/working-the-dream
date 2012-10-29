@@ -41,6 +41,34 @@
 		font-weight: bold;
 	}
 
+	.vote-button {
+		display: block;
+		color: #f8f8f8;
+		text-shadow: 1px 1px #000;
+		font-family: 'Cabin';
+		font-style: normal;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 12px;
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		text-transform: uppercase;
+		border: #515151 1px solid;
+		background: #202020;
+		text-align: center;
+		margin: 5px;
+
+		transition: all .25s ease-in-out;
+	    -moz-transition: all .25s ease-in-out;
+	    -webkit-transition: all .25s ease-in-out;
+	}
+
+	.vote-button:hover {
+		border-right: solid 10px #515151;
+		color: #fff;
+	}
+
 	address {
 		display: block;
 		font-size: 10px;

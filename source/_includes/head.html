@@ -34,7 +34,14 @@
   <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
 
   {% if page.categories contains 'ondernemers' %}
-    <meta name="categories" content="{{ page.categories }}">
+     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# workingthedream: http://ogp.me/ns/fb/workingthedream#">
+    <meta property="fb:app_id"      content="409565642430095" /> 
+    <meta property="og:type"        content="workingthedream:entrepreneur" /> 
+    <meta property="og:url"         content="{{site.url}}{{ root_url }}{{page.url}}" /> 
+    <meta property="og:title"       content="{{page.title}}" /> 
+    <meta property="og:image"       content="{{site.url}}{{ root_url }}/images/{{page.image}}" /> 
+    <meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" /> 
+
   {% endif %}
 
   {% include custom/head.html %}
