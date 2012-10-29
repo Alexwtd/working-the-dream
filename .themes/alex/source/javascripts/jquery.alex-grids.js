@@ -54,7 +54,7 @@
 			previous = box;
 		});
 
-		container.css("width", ((columns * helper.width(boxes.first())) + 10) + "px" );
+		container.css("width", ((columns * helper.width(boxes.first())) + 15) + "px" );
 
 		return this;
 	};

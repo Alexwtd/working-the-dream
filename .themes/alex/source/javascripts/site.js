@@ -31,33 +31,31 @@
     $('.vote-button').click(function(e) {
       e.preventDefault();
       var entrepreneur = $(this).attr('href');
+      var button = $(this);
+      var original = button.html();
 
-      console.log("tha fuck");
 
-      FB.getLoginStatus(function(response) {
-        console.log(response);
-        if (response.status === 'connected') {
-          FB.api(
-            '/me/workingthedream:vote',
-            'post',
-            { entrepreneur: entrepreneur },
-            function(response) {
-               if (!response || response.error) {
-                  console.log(response.error);
-                  alert('Error occured');
-               } else {
-                  alert('vote was successful! Action ID: ' + response.id);
-               }
-            }
-          );
-          console.log("connected");
-        } else if (response.status === 'not_authorized') {
-          console.log("not not_authorized");
-        } else {
-          console.log("login")  ;
-        }
-      });
-      
+      function vote() {FB.api(
+        '/me/workingthedream:vote',
+        'post',
+        { entrepreneur: entrepreneur },
+        function(response) {
+           if (!response || response.error) {
+              button.html("U heeft al gestemd op deze ondernemer.");
+           } else {
+              button.html("Uw stem is verwerkt.");
+           }
+        });
+      };
+
+      button.html("Uw stem wordt verwerkt..");
+      FB.login(function(response) {
+          if (response.authResponse) {
+              vote();
+          } else {
+              button.html("U moet rechten verlenen.");
+          }
+      }, {scope: 'publish_actions'});
     });
 
   })
