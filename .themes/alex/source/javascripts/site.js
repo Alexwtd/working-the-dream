@@ -42,11 +42,15 @@
         function(response) {
            if (!response || response.error) {
               button.html("U heeft al gestemd op deze ondernemer.");
+              button.addClass("success")
            } else {
               button.html("Uw stem is verwerkt.");
+              button.addClass("success")
            }
         });
       };
+
+      button.removeClass("error success");
 
       button.html("Uw stem wordt verwerkt..");
       FB.login(function(response) {
@@ -54,6 +58,7 @@
               vote();
           } else {
               button.html("U moet rechten verlenen.");
+              button.addClass("error")
           }
       }, {scope: 'publish_actions'});
     });

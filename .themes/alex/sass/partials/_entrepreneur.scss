@@ -64,8 +64,18 @@
 	    -webkit-transition: all .25s ease-in-out;
 	}
 
+	.vote-button.success {
+		border-color: #0B7F41;
+		background: #16A95B;
+	}
+
+	.vote-button.error {
+		border-color: #5c150e;
+		background: #A92316;
+	}
+
 	.vote-button:hover {
-		border-right: solid 10px #515151;
+		border-width: 1px 10px 1px 0px;
 		color: #fff;
 	}
 

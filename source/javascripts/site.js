@@ -42,18 +42,23 @@
         function(response) {
            if (!response || response.error) {
               button.html("U heeft al gestemd op deze ondernemer.");
+              button.addClass("success")
            } else {
-              button.html("Uw stem was succesvol!");
+              button.html("Uw stem is verwerkt.");
+              button.addClass("success")
            }
         });
       };
 
-      button.html("U stem wordt verwerkt..");
+      button.removeClass("error success");
+
+      button.html("Uw stem wordt verwerkt..");
       FB.login(function(response) {
           if (response.authResponse) {
               vote();
           } else {
-              button.html("U moet de rechten verlenen.");
+              button.html("U moet rechten verlenen.");
+              button.addClass("error")
           }
       }, {scope: 'publish_actions'});
     });
