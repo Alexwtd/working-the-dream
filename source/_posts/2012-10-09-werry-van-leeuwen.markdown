@@ -1,6 +1,6 @@
 ---
 image: werrytest.png
-website: -
+website: 
 facebook: facebook.com/sugerhill
 email: werry.vanleeuwen@facebook.com
 layout: ondernemer
@@ -10,8 +10,6 @@ comments: true
 layout: ondernemers
 categories: [ondernemers]
 ---
-
-
 
 Als chefkok en eigenaar van Sugarhill zetten Werry en zijn vriendin Margo zich in voor gezonde, lekkere en een vernieuwende keuken tegen betaalbare prijzen.
 
