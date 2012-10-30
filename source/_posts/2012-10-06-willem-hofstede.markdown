@@ -11,6 +11,6 @@ layout: ondernemers
 categories: [ondernemers]
 ---
 
-Als conceptbedenker en evenementenorganisator is willem inmiddels een bekende Arnhemmer. Zo werkte hij mee aan de oprichting van de Roof Garden Arnhem, Our Common Future 2.0, Future City Festival en Green Industry.
+Als conceptbedenker en evenementenorganisator is Willem inmiddels een bekende Arnhemmer. Zo werkte hij mee aan de oprichting van Roof Garden Arnhem, Our Common Future 2.0, Future City Festival en Green Industry.
 
-Daarbij is Willem een van de ondernemers achter As we Speak: Jonge, lokale insiders die verniewende projecten uitlichten in Arnhem en met positieve blik en veel enthousiasme naar te toekomst kijken. 
+Daarbij is Willem een van de ondernemers achter As We Speak: jonge en lokale insiders die vernieuwende projecten uitlichten in Arnhem en met een positieve blik en veel enthousiasme naar de toekomst kijken. 

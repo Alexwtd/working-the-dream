@@ -13,6 +13,6 @@ categories: [ondernemers]
 
 
 
-Als productdesigner en eigenaar van design studio Apentrots, ontwerpt Wouter allerlei mooie producten die vooral uitblinken door zijn unieke keuze van Materialen. Zo weet hij namelijk allerlei producten te realiseren uit het hoog recyclebare materiaal: Karton.
+Als productdesigner en eigenaar van design studio Apetrots, ontwerpt Wouter allerlei mooie producten die vooral uitblinken door zijn unieke keuze van materialen. Zo weet hij namelijk allerlei producten te realiseren uit het hoog recyclebare materiaal: 'karton'.
 
 Daarbij is Wouter een groot fan van synergie en kruisbestuiving, waardoor hij graag met mede ondernemers aan een mooier Arnhem werkt.
