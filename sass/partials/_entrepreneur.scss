@@ -30,6 +30,10 @@
 		right: 0;
 		position: absolute;
 		background: #ebebeb;
+
+		.entry-content {
+			margin-bottom: 0;
+		}
 	}
 	.clear {
 		clear: both;
