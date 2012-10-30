@@ -5,7 +5,7 @@
 	$.fn.alexGrids = function(settings) {
 		var defaults = {
 			marginBottom: 20,
-			marginRight: 20,
+			marginRight: 22,
 			padding: 20
 		};
 
@@ -46,7 +46,7 @@
 				box.css("left", position.left + "px");
 				box.css("position", "absolute");
 				box.css("top", (position.top + helper.height(previous)) + "px");
-			} else if (space < helper.height(box)) {
+			} else if (space <= helper.height(box)) {
 				space = height;
 				columns++;
 			}
@@ -54,7 +54,7 @@
 			previous = box;
 		});
 
-		container.css("width", ((columns * helper.width(boxes.first())) + 15) + "px" );
+		container.css("width", ((columns * helper.width(boxes.first()))) + "px" );
 
 		return this;
 	};
