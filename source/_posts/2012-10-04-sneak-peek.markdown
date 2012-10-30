@@ -1,7 +1,7 @@
 ---
 image: place.png
 layout: post
-title: "Sneak peak"
+title: "Sneak peek"
 date: 2012-10-04 17:00
 comments: true
 categories: [post]

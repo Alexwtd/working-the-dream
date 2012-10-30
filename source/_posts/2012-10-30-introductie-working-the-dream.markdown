@@ -2,7 +2,7 @@
 image: infostill.png
 layout: post
 title: "Introductie Working the Dream"
-date: 2012-09-12 21:00
+date: 2012-10-30 13:00
 comments: true
 categories: [post, video, info]
 ---
@@ -11,4 +11,4 @@ Door middel van deze korte video geef ik uitleg over ‘Working the Dream en de 
 
 <!--more-->
 
-{% vimeo 51439321%} 
+{% vimeo Placeholder%} 
