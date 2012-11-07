@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Dankwoord #01 Mitchel Kuijpers"
+date: 2012-11-06 11:00
+comments: true
+categories: [post]
+---
+Eens in de zoveel start je een ambitieus project dat je eigenlijk niet in je eentje kunt uitvoeren. Voor zo'n project zitten er dan niet genoeg uren in een dag of ontbreekt er de nodigde kennis op een bepaald gebied.   
+  
+  Nu leer ik graag nieuwe dingen, maar scripten en programmeren is nou eenmaal niet mijn ding. Vandaar dat ik opzoek ging naar een programmeur die al mijn wilde dromen kon realiseren. [Mitchel Kuijpers](http://nl.linkedin.com/pub/mitchel-kuijpers/22/487/861 "linked-in") bleek mijn redder in nood te zijn.<!--more-->  
+  
+  Mitchel is een zeer getalenteerde programmeur die geen enkele uitdaging uit de weg gaat. Toen ik de vraag stelde: 'Wie kan mij helpen met het realiseren van een custom wordpress template' reageerde Mitchel erg enthousiast. Zo enthousiast dat hij niet eens wordpress wilde gebruiken, maar liever met wat extra moeite zelf een site wou realiseren aan de hand van Octopress. In dat geval moest ik wel even [Markdown](http://en.wikipedia.org/wiki/Markdown "uitleg") leren om een simpele post te kunnen schrijven, maar dan zou mijn site wel een stuk sneller laden.   
+  
+  Aangezien we nu toch alles custom gingen maken, sloegen mijn design ideeën op hol: Parallax, sidescrolling, volledige Facebook integratie, voting app en posts die als een soort [Masonry](http://masonry.desandro.com/ "uitleg")  afhankelijk van de browser grootte zouden worden geplaatst. En het mooiste was, niets was te extreem voor Mitchel 'Oh dat kunnen we wel even doen'. En als er voor bepaalde functies geen [snippets](http://en.wikipedia.org/wiki/Snippet_(programming) "uitleg") te vinden waren dan schreef meneer het zelf wel even.   
+  
+  Kortom: Mitchel is een programmeur/scripter die alles kan realiseren en door zijn toewijding en passie voor het programmeren geen uitdaging uit de weg gaat. Dankzij Mitchel heb ik mijn droom site kunnen realiseren en daar ben ik hem heel dankbaar voor.
