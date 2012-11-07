@@ -1,7 +1,7 @@
 <h1>Blog</h1>
 
 <p>
-	Deze website verteld het verhaal van een selectie inspirerende ondernemers uit Arnhem om hopelijk een hele nieuwe generatie ondernemers te activeren. 
+	Deze website vertelt het verhaal van een selectie inspirerende ondernemers uit Arnhem om hopelijk een hele nieuwe generatie ondernemers te activeren. 
 </p>
 
 <p>
