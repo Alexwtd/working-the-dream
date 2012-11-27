@@ -6,7 +6,7 @@ categories: [info]
 layout: info
 ---
 
-Ik hou heel erg veel van dromen en uitdagingen en ik merk dat ik zelf erg gelukkig wordt van het volgen van deze dromen. Ik pak projecten aan die ik leuk vind en daar door kan ik er metveel meer passie, toewijding en enthousiasme aan werken. Het werken voelt niet meer als werk en dat maakt mij gelukkig.
+Ik hou heel erg veel van dromen en uitdagingen en ik merk dat ik zelf erg gelukkig word van het volgen van deze dromen. Ik pak projecten aan die ik leuk vind en daar door kan ik er metveel meer passie, toewijding en enthousiasme aan werken. Het werken voelt niet meer als werk en dat maakt mij gelukkig.
 
 Als ik om mij heen kijk zijn er in Arnhem heel veel dromers, die vervolgens er alles aan doen om dit waar te maken. Kijk bijvoorbeeld naar initiatieven als de Roofgarden. 
 

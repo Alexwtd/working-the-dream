@@ -11,6 +11,6 @@ layout: ondernemers
 categories: [ondernemers]
 ---
 
-Als Initiator/organisator van diverse feesten, festivals, projecten en sinds kort zelfs een club is het soms moeilijker om iets te bedenken waar Yosser niet aan mee helpt.
+Als initiator, conceptbedenker en organisator van diverse evenementen, festivals en projecten is het soms moeilijker om iets te bedenken waar Yosser niet aan mee werkt. Zo stond hij oa afgelopen jaar aan de wieg van Roof Garden Arnhem en de Popupklup. En werkt hij als productieleider aan verschillende grote evenementen in Arnhem
 
-Met zijn kracht om mensen om zich heen te inspireren, motiveren en samen te laten werken aan een gedeeld doel, maakt Yosser Arnhem met elk project een beetje leuker!
+Met zijn kracht om mensen om zich heen te inspireren, motiveren en samen te laten werken, maakt Yosser met ieder project Arnhem een stukje leuker.
