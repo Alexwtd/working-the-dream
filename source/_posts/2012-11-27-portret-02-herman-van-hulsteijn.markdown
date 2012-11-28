@@ -7,7 +7,7 @@ comments: true
 categories: [post, video]
 ---
 
-In het tweede portret stel ik u graag voor aan [Herman van Hulsteijn](nl.linkedin.com/pub/herman-van-hulsteijn/22/941/673 "Linked-in"), de  ondernemer achter [Vanhulsteijn Bicycles](http://www.vanhulsteijn.com/ "Website")
+In het tweede portret stel ik u graag voor aan [Herman van Hulsteijn](http://nl.linkedin.com/pub/herman-van-hulsteijn/22/941/673 "Linked-in"), de  ondernemer achter [Vanhulsteijn Bicycles](http://www.vanhulsteijn.com/ "Website")
 
 <!--more-->
 
