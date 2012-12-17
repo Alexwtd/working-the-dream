@@ -97,7 +97,7 @@ disqus_short_name: workingthedream
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-36918356-1
 
 # Facebook Like
 facebook_like: true
